@@ -1,0 +1,13 @@
+@import '../../asset/variables';
+
+.navigation{
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    .link{
+        text-decoration: none;
+        color: white;
+    }
+}

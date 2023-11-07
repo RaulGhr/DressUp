@@ -1,0 +1,111 @@
+@import '../../asset/variables';
+
+.addClothes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+  
+
+
+  .images {
+    margin: 10px;
+
+    padding: 20px;
+    // border: 1px solid $textColor;
+    // border-radius: 30px;
+    width: 220px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 12px;
+        box-shadow: 6px 6px 4px 0px rgba(255, 255, 255, 0.712);
+        backdrop-filter: blur(40px);
+        background: rgba(217, 217, 217, 0.623);
+        border-radius: 16px;
+
+    img {
+      width: 200px;
+      
+    }
+
+    .custom-file-upload {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      text-align: center;
+      // padding: 10px;
+      cursor: pointer;
+      color: $textColor;
+      // margin: 10px 5px;
+      i {
+        color: $textColor;
+        font-size: 100px;
+      }
+      .shirtImg{
+        align-self: center;
+        width: 80%;
+      }
+      input[type="file"] {
+        display: none;
+      }
+    }
+  }
+
+  .saveButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid $textColor;
+    background-color: transparent;
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: 3vh;
+    color: $textColor;
+    padding: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    i{
+      margin-right: 5px;
+    }
+
+  }
+  .formular{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    input, select{
+      font-weight: 300;
+      font-size: 3vh;
+      color: $textColor;
+      border: 1px solid $textColor;
+      border-radius: 10px;
+      font-family: "Alatsi", sans-serif;
+      background-color: transparent;
+      text-decoration: none;
+      margin-top: 10px;
+      
+      
+
+    }
+    option{
+      color: #1a120b;
+      
+    }
+    input::placeholder{
+      color: $textColor;
+      font-weight: 300;
+      font-size: 3vh;
+    }
+  }
+  .loading {
+    font-weight: 300;
+    font-size: 3vh;
+    color: $textColor;
+  }
+}
+

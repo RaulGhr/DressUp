@@ -1,0 +1,13 @@
+@import "./asset/variables";
+
+body {
+  margin: 0;
+  // height: 100vh;
+  
+  font-family: "Alatsi", sans-serif;
+  // -webkit-font-smoothing: antialiased;
+  // -moz-osx-font-smoothing: grayscale;
+  background: rgb(52, 31, 65);
+  background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);
+  background-attachment: fixed;
+}

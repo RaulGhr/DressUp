@@ -1,0 +1,23 @@
+@import '../../asset/variables';
+
+.addButton{
+    // height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    // border-radius: 12px;
+    // box-shadow: 6px 6px 4px 0px rgba(255, 255, 255, 0.712);
+    // backdrop-filter: blur(40px);
+    // background: rgba(217, 217, 217, 0.70);
+    // border-radius: 16px;
+
+    img{
+        width: 60%;
+    }
+
+    &:hover{
+        transform: scale(106%);
+        transition: all 0.3s;
+    }
+}

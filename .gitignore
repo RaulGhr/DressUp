@@ -1,0 +1,8 @@
+#BACKEND
+/backend/Api/imageDB/*
+/backend/Api/instance/*
+/backend/Api/venv
+/backend/Api/.idea
+
+#FRONTEND
+/dress-up/node_modules

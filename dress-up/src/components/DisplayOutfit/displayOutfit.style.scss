@@ -1,0 +1,42 @@
+@import '../../asset/variables';
+.displayOutfit{
+    // width: 20vh;
+    height: 60vh;
+    width: 30vh;
+    margin: 3vh;
+    flex: 0 0 auto;
+    
+
+    box-shadow: 6px 6px 4px 0px rgba(255, 255, 255, 0.712);
+    backdrop-filter: blur(40px);
+    background: rgba(217, 217, 217, 0.70);
+    border-radius: 16px;
+
+
+    // display: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    img{
+        
+        max-width: 70%;
+        max-height: 90%;
+       
+        // height: 90%;
+        object-fit: cover;
+        margin: 10px;
+        // border: 1px solid $textColor;
+    }
+
+    h4{
+        color: $textColor;
+        display: none;
+        text-align: center;
+        font-size: 3vh;
+    }
+    &:hover{
+        transform: scale(104%);
+      }
+}

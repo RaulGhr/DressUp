@@ -1,0 +1,44 @@
+@import '../../asset/variables';
+
+.formular {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  input,
+  select {
+    font-weight: 300;
+    font-size: 3vh;
+    color: $textColor;
+    border: 1px solid $textColor;
+    border-radius: 10px;
+    font-family: "Alatsi", sans-serif;
+    background-color: transparent;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  option {
+    color: #1a120b;
+  }
+  input::placeholder {
+    color: $textColor;
+    font-weight: 300;
+    font-size: 3vh;
+  }
+  .saveButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid $textColor;
+    background-color: transparent;
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: 3vh;
+    color: $textColor;
+    padding: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    i {
+      margin-right: 5px;
+    }
+  }
+}
