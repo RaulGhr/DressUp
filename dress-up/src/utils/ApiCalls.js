@@ -2,7 +2,7 @@ import axios from "axios";
 
 import { encodeImgToBase64String } from "./FilesUtils";
 
-const baseURL = "http://192.168.1.41:5000/";
+const baseURL = "http://192.168.1.128:5000/";
 
 export const apiRemoveImgBackground = async (imagine) => {
   const encoded_img = await encodeImgToBase64String(imagine);
